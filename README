@@ -4,6 +4,8 @@ Geniverse demos located here: http://geniverse.dev.concord.org/
 
 Geniverse SproutCore application repository: http://github.com/psndcsrv/Geniverse-SproutCore
 
+This Jetty server wraps the repo Geniverse-GWT which is loaded as a git submodule: http://github.com/psndcsrv/Geniverse-GWT
+
 Setting up a local Geniverse Biologica GWT server running on port 8080
 
 1) Clone repository and submodules
