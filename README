@@ -1,0 +1,36 @@
+A GWT backend server using Jetty that implements a Biologica server for the Geniverse SproutCore application.
+
+Geniverse demos located here: http://geniverse.dev.concord.org/
+
+Geniverse SproutCore application repository: http://github.com/psndcsrv/Geniverse-SproutCore
+
+Setting up a local Geniverse Biologica GWT server running on port 8080
+
+1) Clone repository and submodules
+
+  git clone git://github.com/stepheneb/geniverse-gwt-server.git
+  cd geniverse-gwt-server
+  git submodule init
+  git submodule update
+
+4) Start the GWT server on port 8080.
+
+  ./start_jetty.sh
+
+You can check to see if the GWT server is running properly by opening this page:
+
+  http://localhost:8080/geniverse/
+
+You should see the following page:
+
+     Web Application Starter Project
+  
+         [Generate Dragon]
+        Script Button test
+
+Clicking the "Generate Dragon" button should produce a dialog displaying some text characteristics of a dragon.
+
+Jetty, see http://docs.codehaus.org/display/JETTY
+
+Jetty is dual licensed under the Apache License 2.0 http://www.apache.org/licenses/LICENSE-2.0.html
+and/or the Eclipse Public License 1.0 http://www.eclipse.org/legal/epl-v10.html.

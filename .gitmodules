@@ -1,0 +1,3 @@
+[submodule "geniverse-gwt"]
+	path = geniverse-gwt
+	url = git://github.com/psndcsrv/Geniverse-GWT.git
